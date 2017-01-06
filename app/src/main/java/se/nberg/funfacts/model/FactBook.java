@@ -1,4 +1,4 @@
-package se.nberg.funfacts;
+package se.nberg.funfacts.model;
 
 import java.util.Random;
 

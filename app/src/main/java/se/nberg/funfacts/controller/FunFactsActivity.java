@@ -1,6 +1,5 @@
-package se.nberg.funfacts;
+package se.nberg.funfacts.controller;
 
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +8,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Random;
+import se.nberg.funfacts.R;
+import se.nberg.funfacts.model.ColorWheel;
+import se.nberg.funfacts.model.FactBook;
 
 public class FunFactsActivity extends AppCompatActivity {
     private FactBook mFactBook = new FactBook();
