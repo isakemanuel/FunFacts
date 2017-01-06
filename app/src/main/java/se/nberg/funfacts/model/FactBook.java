@@ -18,12 +18,9 @@ public class FactBook {
 
     // Methods - Actions the object can take
     public String getFact() {
-        String fact = "";
         // Randomly select a fact
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(mFacts.length);
-        fact = mFacts[randomNumber];
-
-        return fact;
+        return mFacts[randomNumber];
     }
 }
